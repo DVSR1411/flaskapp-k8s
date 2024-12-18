@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: dvsr1411/flaskapp:v2
+        image: dvsr1411/flaskapp:v3
         ports:
         - containerPort: 5000
 ---
