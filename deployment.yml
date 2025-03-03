@@ -18,8 +18,14 @@ spec:
         ports:
         - containerPort: 5000
         env:
-        - name: APP_COLOR
-          value: "blue"
+        - name: MYSQL_HOST
+          value: "mysqldb"
+        - name: MYSQL_DATABASE
+          value: "mydb"
+        - name: MYSQL_USER
+          value: "root"
+        - name: MYSQL_PASSWORD
+          value: "Sathwik123"
 ---
 apiVersion: v1
 kind: Service
